@@ -21,6 +21,34 @@
         margin-right: 25px;
     }
 
+    /* SECTION 3*/
+    .sect3-big-box{
+        width: 930px;
+        height: 509px;
+    }
+    .sect3-photo-box{
+        width: 368.64px;
+        height: 368.64px;
+        margin-top: 50px;
+    }
+    .sect3-text-box {
+        width: 552px;
+        height: 490px;
+        padding: 18px;
+    }
+    .sect3-text-box p{
+        width: 552px;
+    }
+    .figure{
+        width: 508px;
+        height: 54px;
+    }
+    .sect3-little-box{
+        width: 508px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
 }
 /* TABLET - 768 */
 @media (max-width:768px){
@@ -58,6 +86,38 @@
         margin-left: 0;
     }
 
+    /* SECTION 3*/
+
+    .sect3-big-box{
+        width: 691px;
+        height: 550px;
+    }
+    .sect3-photo-box{
+        width: 276px;
+        height: 276px;
+        margin-top: 100px;
+    }
+    .sect3-text-box {
+        width: 414px;
+        height: 500px;
+        padding: 18px;
+    }
+    .sect3-text-box p{
+        width: 380px;
+    }
+    .figure{
+        width: 381px;
+        height: 54px;
+    }
+    .sect3-little-box{
+        width: 400px;
+        height: 120px;
+        margin-top: 27px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
 }
 /* MOBILE- L (425) */
 @media (max-width:425px){
@@ -115,7 +175,7 @@
     }
     .sect2-text-box{
         width: 425px;
-        height: 425px;
+        height: 460px;
         margin: 0;
         
     }
@@ -134,5 +194,37 @@
 
     }
     
+    /* SECTION 3*/
+    
+    .sect3-big-box{
+        width: 425px;
+        height: 1250px;
+    }
+    .sect3-photo-box{
+        width: 400px;
+        height: 400px;
+        margin-left: 10px;
+        margin-top: 0;
 
+    }
+    .sect3-text-box {
+        width: 369px;
+        height: 660px;
+        padding: 30px;
+    }
+    .sect3-text-box p{
+        width: 369px;
+        height: 189px;
+    }
+    .figure{
+        width: 369px;
+        height: 54px;
+    }
+    .sect3-little-box{
+        width: 369px;
+        height: 200px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
 }
