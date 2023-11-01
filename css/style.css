@@ -322,7 +322,6 @@ hr{
     width: 650px;
     height: 50px;
     align-items: center;
-     
 }
 .sect3-little-box h3{
     background-color: #99999913;
@@ -373,7 +372,19 @@ footer{
     font-weight: 500;
     font-size: 18px;
     color: #999999;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
+.footer-icons > ul{
+    display: flex;
+    column-gap: 20px;
+    color: white;
+}
+.footer-contact{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+    
+
 }
 .footer-photo-box{
     width: 405px;
@@ -393,8 +404,6 @@ footer{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-
-
 .copyright{
     margin-top: 40px;
     text-align: center;
