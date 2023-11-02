@@ -6,6 +6,9 @@
         top: 53%;
         left: 65%;
     }
+    .search-box input{
+        width: 170px;
+    }
     /* FIRST SECTION */
     .first-section-div-box{
         width: 1024px;
@@ -57,6 +60,23 @@
         align-items: center;
         gap: 25px;
     }
+    /* Section 5 */
+    .sect5-big-box{
+        height: 550px;
+    }
+    .sect5-big-box img{
+        height: 100%;
+    }
+    .sect5-text-box{
+        left: 23%;
+        height: 100px;
+    }
+    .sect5-form{
+        width: 630px;
+        height: 350px;
+        padding-left: 0px;
+        left: 21%;
+    }
     /* FOOTER */
     .footer-div-box{
         max-width: 1024px;
@@ -79,6 +99,9 @@
         height: 270px;
         top: 95%;
         left: 53%;
+    }
+    .search-box{
+        display: none;
     }
     /* FIRST SECTION */
     .first-section-div-box{
@@ -137,7 +160,13 @@
         flex-wrap: wrap;
         
     }
-
+    /* section 5 */
+    .sect5-text-box{
+        left: 11%;
+    }
+    .sect5-form{
+        left: 9%;
+    }
     /* FOOTER */
     .footer-div-box{
         height: 400px;
@@ -184,6 +213,9 @@
         display: block;
         margin-left: 90px;
 
+    }
+    .search-box{
+        display: none;
     }
     
     .background{
@@ -277,13 +309,35 @@
     .sect4-big-box{
         height: 1900px;
     }
+
+    /* section 5 */
+    .sect5-big-box{
+        height: 760px;
+    }
+    .sect5-text-box{
+        width: 330px;
+    }
+    .sect5-form{
+        width: 350px;
+    }
+    .sect5-form > form{
+        width: 100px;
+        margin-left: 19px;
+    }
+    .sect5-form textarea{
+        width: 300px;
+    }
+    .sect5-buttons{
+        width: 230px;
+        margin-left: 44px;
+    }
      /* FOOTER */
      .footer-div-box{
         height: 880px;
         flex-wrap: wrap;
      }
      .footer-child{
-        width: 400px;
+        width: 390px;
      }
      .footer-child p {
         width: 400px;
@@ -293,8 +347,11 @@
         width: 300px;
         margin: 30px;
     }
+    .footer-photo-text{
+        width: 250px;
+    }
     .footer-photo-text h3{
-        width: 300px;
+        width: 200px;
     }
 
 }

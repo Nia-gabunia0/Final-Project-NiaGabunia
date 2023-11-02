@@ -31,6 +31,26 @@
 .ul-item a{
     color: rgb(110, 82, 5);
 }
+.search-box input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(110, 82, 5);
+    background-color: #532b2b55;
+}
+.search-box input::placeholder{
+    color: white;
+    
+}
+input:focus{
+    outline: none;
+}
+.search-box button{
+    border: none;
+    border-radius: 20%;
+    
+}
 .burger-bar{ background-color: rgba(194, 185, 185, 0.582);
     width: 50px;
     height: 50px;
@@ -403,6 +423,66 @@ hr{
     margin-top: 20px;
 }
 
+/* SECTION 5 */
+
+.sect5-big-box{
+    position: relative;
+    z-index: 1;
+}
+.sect5-big-box img{
+    width: 100%;
+}
+.sect5-text-box{
+    position: absolute;
+    z-index: 2;
+    top: 8%;
+    left: 30%;
+    text-align: center;
+    color: white;
+}
+.sect5-text-box h2{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.sect5-text-box h3{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.sect5-form{
+    width: 700px;
+    height: 350px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 26%;
+}
+.sect5-form {
+    display: flex;
+    padding-left: 34px;
+}
+.sect5-form input{
+    width: 300px;
+    height: 50px;
+    margin: 6px;
+}
+.sect5-form textarea{
+    width: 616px;
+    resize: none;
+    outline: none;
+    margin: 6px;
+}
+.sect5-buttons{
+    margin-left: 200px;
+}
+.sect5-buttons input{
+    width: 100px;
+    height: 40px;
+
+}
 
 
 
