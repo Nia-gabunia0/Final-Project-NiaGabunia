@@ -20,10 +20,16 @@
     font-weight: 900;
     font-size: 50px;
 }
+.h1 a{
+    color: rgb(110, 82, 5);
+}
 .ul-item{
     width: 400px;
     display: flex;
     justify-content: space-between; 
+}
+.ul-item a{
+    color: rgb(110, 82, 5);
 }
 .burger-bar{ background-color: rgba(194, 185, 185, 0.582);
     width: 50px;
@@ -84,6 +90,9 @@
     font-weight: 400;
     font-size: 20px;
     transition: 1s;
+}
+.buy-button a {
+    color: white;
 }
 .buy-button:hover{
     background-color: rgb(202, 111, 6);
@@ -253,6 +262,13 @@ hr{
     transition: 1s;
     margin-top: 50px;
 }
+.sect-2-button:hover{
+    background-color: rgb(110, 68, 13);
+    transition: 1s;
+}
+.sect-2-button a{
+    color: white;
+}
 .sect2-image-box{
     margin-top: 10px;
     width: 648px;
@@ -342,6 +358,54 @@ hr{
     transition: 1s;
 }
 
+/* SECTION 4 */
+.sect4-big-box{
+    height: 550px;
+    background-color: rgb(35, 32, 32);
+}
+.sect4-text-box{
+    margin-left: 50px;
+    color: white;
+}
+.sect4-text-box h4{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.sect4-text-box h2{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+.sect4-photo-box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin-left: 15px;
+}
+.sect-4-photos{
+    width: 220px;
+}
+.sect-4-photos img{
+    width: 100%;
+    height: 200px;  
+    border-radius: 50%;
+}
+.sect-4-photos h3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
 /* FOOTER */ 
 footer{   
     background-color: #010101;
@@ -379,12 +443,21 @@ footer{
     column-gap: 20px;
     color: white;
 }
+.footer-icons a {
+    color: #999999;
+}
 .footer-contact{
     display: flex;
     column-gap: 20px;
     margin-top: 20px;
     
 
+}
+.footer-contact i{
+    color: rgb(139, 70, 13);
+}
+.footer-contact a{
+    color: #FEFEFE;
 }
 .footer-photo-box{
     width: 405px;
@@ -401,7 +474,7 @@ footer{
 .footer-photo-text h5{
     font-weight: 400;
     font-size: 14px;
-    color: white;
+    color: #FEFEFE;
     font-family: 'Poppins', sans-serif;
 }
 .copyright{
@@ -411,4 +484,9 @@ footer{
     font-size: 17px;
     color: #999999;
     font-family: 'Poppins', sans-serif;
+}
+.copyright a{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(119, 114, 114);
 }
