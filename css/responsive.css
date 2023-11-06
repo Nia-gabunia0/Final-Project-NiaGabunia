@@ -3,15 +3,15 @@
     /* HEADER */
     .background-text{
         width: 350px;
-        top: 53%;
-        left: 65%;
+        top: 60%;
+        left: 60%;
     }
     .search-box input{
         width: 170px;
     }
     /* FIRST SECTION */
     .first-section-div-box{
-        width: 1024px;
+        max-width: 1024px;
         height: 590px;
         justify-content: space-around;
     }
@@ -26,7 +26,7 @@
 
     /* SECTION 3*/
     .sect3-big-box{
-        width: 930px;
+        max-width: 930px;
         height: 509px;
     }
     .sect3-photo-box{
@@ -55,10 +55,14 @@
     .sect4-big-box{
         height: 750px;
     }
+    .sect4-text-box{
+        margin-left: 70px;
+    }
     .sect4-photo-box{
+        margin: 0 auto;
         justify-content: center;
         align-items: center;
-        gap: 25px;
+        gap: 25px 85px;
     }
     /* Section 5 */
     .sect5-big-box{
@@ -105,7 +109,8 @@
     }
     /* FIRST SECTION */
     .first-section-div-box{
-        width: 768px;
+        max-width: 768px;
+        height: 1250px;
     }
     .black-image{
         width: 50%;
@@ -159,6 +164,10 @@
         flex-direction: column;
         flex-wrap: wrap;
         
+    }
+    /* section4 */
+    .sect4-big-box{
+        min-height: 750px;
     }
     /* section 5 */
     .sect5-text-box{
