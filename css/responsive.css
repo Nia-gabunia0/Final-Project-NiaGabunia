@@ -206,7 +206,7 @@
 /* MOBILE- L (425) */
 @media (max-width:425px){
     .background{
-        width: 100%;
+        width: 425px;
         height: 885px;
     }
     .div-navigation{
@@ -242,6 +242,9 @@
     }
     
     /* FIRST SECTION */
+    .section1{
+        width: 425px;
+    }
 
     .first-section-div-box{
         width: 425px;
