@@ -11,7 +11,7 @@ header{
 .div-navigation{   background-color: rgba(41, 3, 3, 0.767);
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 70px;
     top: 0;
     justify-content:space-around;
     align-items: center;
@@ -78,7 +78,7 @@ input:focus{
 .header-big-box{
     position: absolute;
     width: 100%;
-    min-height: 800px;
+    min-height: 650px;
     margin: 0 auto;
     top: 100px;
     /* dasamatebelia */
@@ -96,8 +96,8 @@ input:focus{
     max-width: 450px;
     width: 100%;
     height: 300px;
-    top: 44%;
-    left: 60%;
+    top: 71%;
+    left: 62%;
 }
 .background-text h4{
     font-weight: 400;
@@ -138,7 +138,6 @@ input:focus{
     margin: 0 auto;
     min-height: 370px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 .playlist{
@@ -156,11 +155,11 @@ input:focus{
     width: 100%;
 }
 .playlist-text{ 
-    width: 302px;
+    width: 226px;
     height: 158px;
     position: absolute;
     top: 41.5%;
-    margin-left: 30px;
+    margin-left: 20px;
     padding-top: 30px;
     color: white;
 }
@@ -200,8 +199,8 @@ hr{
     border-radius: 50%;
     position: absolute;
     padding: 11px 19px;
-    margin-top: 15px;
-    margin-left: 230px;
+    margin-top: 13px;
+    margin-left: 170px;
     transition: 1s;
 }
 .play-button:hover{
@@ -247,7 +246,7 @@ hr{
     width: 100%;   /* მაქს ვიდსზე ზომაში იკუმშება ბოქსი!!  */
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .sect2-text-box {
@@ -326,7 +325,7 @@ hr{
     padding-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .sect3-photo-box{
     width: 518px;
@@ -424,9 +423,7 @@ hr{
 }
 .sect4-photo-box{
     display: flex;
-    flex-wrap: wrap;
     column-gap: 20px;
-    margin-left: 35px;
 }
 .sect-4-photos{
     width: 210px;
@@ -529,8 +526,9 @@ footer{
     align-items: center;
 }
 .footer-child{
-    width: 405.34px;
+    max-width: 405.34px;
     height: 278.31px;
+    padding: 12px;
 }
 .footer-child h3{
     font-weight: 500;
