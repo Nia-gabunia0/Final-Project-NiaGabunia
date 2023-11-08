@@ -33,6 +33,13 @@ header{
 .ul-item a{
     color: rgb(178, 170, 149);
 }
+.li-item{
+    transition: 1s;
+}
+.li-item:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
 .search-box input{
     width: 300px;
     height: 30px;
@@ -43,7 +50,9 @@ header{
 }
 .search-box input::placeholder{
     color: white;
-    
+    font-size: 14px;   
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif; 
 }
 input:focus{
     outline: none;
@@ -124,9 +133,13 @@ input:focus{
 .buy-button a {
     color: white;
 }
+a:hover{
+    transition: background-color 0.5s;
+}
 .buy-button:hover{
     background-color: rgb(202, 111, 6);
     transition: 1s;
+    transform: scale(1.1);
 }
 /* First SECTION */
 .section1{
@@ -289,19 +302,23 @@ hr{
     width: 160px;
     height: 49px;
     text-align: center;
-    padding-top: 14px;
+    padding-top: 16px;
     color: white;
     border-radius: 50px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     transition: 1s;
     margin-top: 50px;
 }
 .sect-2-button:hover{
-    background-color: rgb(110, 68, 13);
+    background-color:  rgb(202, 111, 6);
     transition: 1s;
+    transform: scale(1.2);
 }
 .sect-2-button a{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 .sect2-image-box{
@@ -391,7 +408,12 @@ hr{
 .sect3-little-box h3:hover{
     background-color: #3a0b039d;
     transition: 1s;
+    transform: scale(1.10);
 }
+p::selection {
+    color: rgb(8, 87, 139);
+    background-color: rgb(238, 217, 188);
+  }
 
 /* SECTION 4 */
 .section4{
@@ -426,6 +448,11 @@ hr{
 }
 .sect-4-photos{
     width: 210px;
+    transition: 1s;
+}
+.sect-4-photos:hover{
+    transform: scale(1.09);
+    transition: 1s;
 }
 .sect-4-photos img{
     width: 100%;
@@ -489,19 +516,48 @@ hr{
     width: 300px;
     height: 50px;
     margin: 6px;   
+    background-color: rgb(204, 187, 165);
+}
+.sect5-form input::placeholder{
+    color:  rgb(75, 39, 3);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.sect5-form input:hover{
+    border-color: rgb(139, 70, 13);
+}
+.sect5-form textarea:hover{
+    border-color: rgb(139, 70, 13);
+    
+}
+.sect5-form textarea::placeholder{
+    color:  rgb(75, 39, 3);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 .sect5-form textarea{
     width: 616px;
     resize: none;
     outline: none;
     margin: 6px;
+    background-color: rgb(204, 187, 165);
 }
 .sect5-buttons{
     margin-left: 200px;
 }
+.sect5-buttons input:hover{
+    transform: scale(1.09);
+    color: white;
+    background-color: rgb(139, 70, 13);
+}
 .sect5-buttons input{
     width: 100px;
     height: 40px;
+    font-size: 14px;   
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 
 }
 /* FOOTER */ 
