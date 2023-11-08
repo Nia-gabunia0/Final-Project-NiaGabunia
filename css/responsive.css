@@ -3,7 +3,8 @@
     /* HEADER */
     .background-text{
         width: 350px;
-        left: 60%;
+        top: 60%;
+        left: 56%;
     }
     .search-box input{
         width: 170px;
@@ -53,7 +54,7 @@
     }
     /* SECTION 4 */
     .sect4-big-box{
-        height: 750px;
+        min-height: 750px;
     }
     .sect4-text-box{
         margin-left: 70px;
@@ -93,6 +94,27 @@
         height: 160px;
     }
 }
+/* responsive 800px <less> */
+
+@media (max-width:800px){
+
+
+    .search-box{
+        display: none;
+    }
+    .background-text{
+        top: 70%;
+        left: 53%;
+    }
+
+    .sect5-form{
+        left: 10%;
+
+    }
+}
+
+
+
 /* TABLET - 768 */
 @media (max-width:768px){
     /* HEADER */
@@ -101,11 +123,15 @@
         width: 100%;
         height: 700px;
     }
+    .background-picture img{
+        width: 600px;
+        height: 600px;
+    }
     .background-text{
         width: 340px;
         height: 270px;
-        top: 95%;
-        left: 53%;
+        top: 70%;
+        left: 51%;
     }
     .search-box{
         display: none;
@@ -113,7 +139,8 @@
     /* FIRST SECTION */
     .first-section-div-box{
         max-width: 768px;
-        height: 1250px;
+        min-height: 650px;
+        height: 100%;
     }
     .black-image{
         width: 50%;
@@ -129,7 +156,7 @@
         margin-top: 15px;
     }
     .section2-big-box{
-        width: 768px;
+        max-width: 768px;
         margin-left: 0;
     }
     .sect2-image-box{
@@ -140,7 +167,7 @@
 
     .sect3-big-box{
         width: 691px;
-        height: 550px;
+        height: 577px;
     }
     .sect3-photo-box{
         width: 276px;
@@ -164,8 +191,8 @@
         height: 120px;
         margin-top: 27px;
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
+        gap: 3px;
         
     }
     /* section4 */
@@ -198,7 +225,7 @@
         height: 275px;
     }
     .footer-photo-box{
-        width: 210px;
+        width: 192px;
         margin-top: 50px;
     }
     .copyright{
@@ -206,6 +233,7 @@
     }
     
 }
+
 /* MOBILE- L (425) */
 @media (max-width:425px){
     .background{
