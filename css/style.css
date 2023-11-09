@@ -643,4 +643,11 @@ footer{
     font-weight: 700;
     font-size: 20px;
     color: rgb(119, 114, 114);
+    transition: 1s;
+}
+.copyright a:hover{
+    transition: 1s;
+    color: white;
+    background-color: rgb(139, 70, 13);
+    border-radius: 40%;
 }
