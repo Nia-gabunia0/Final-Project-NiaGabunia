@@ -18,22 +18,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-wraper">                               <!--HEADER SECTION-->
-       <div class="background"></div>
-          <div class="div-navigation"> <!--responsive class-->
-            <h1 class="h1">
-              <a href="#" target="_self" rel="page">ePentatonic</a>
-            </h1>
-            <div class="nav-box">
-              <nav>
+    <header class="header">                               <!--HEADER SECTION-->
+          <div class="header-wraper"> <!--responsive class-->
+            <h1 class="h1"><a href="#" target="_self" rel="page">ePentatonic</a></h1>
+              <nav class="navigation" id="navigationBlock">
                 <ul class="ul-item">
                   <li class="li-item"><a href="#">Home</a></li>
                   <li class="li-item"><a href="#">Shop</a></li>
-                  <li class="li-item"><a href="#">About</a></li>
-                  <li class="li-item"><a href="#">Contact</a></li>
+                  <li class="li-item"><a href="#Page-informations">About</a></li>
+                  <li class="li-item"><a href="#Page-informations">Contact</a></li>
                 </ul>
               </nav>
-            </div>
             <div class="search-box">
               <input type="search" id="site-search" name="q" placeholder="Search...">
               <button>
@@ -42,7 +37,7 @@
                 </ul>
               </button>
             </div>
-            <div class="burger-bar">
+            <div class="burger-bar" id="burgerBlock">
               <ul>
                 <li class="li-burger">
                   <a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></svg>
@@ -50,19 +45,24 @@
               </ul>
             </div>
           </div>
-          <div class="header-big-box">
-            <div class="background-picture">
-              <img src="images/header-media.png" alt="background-picture">
-            </div>
-            <div class="background-text">
-              <h4>New release</h4>
-              <h2>Nothing Else Matters</h2>
-              <h4>We have released our latest single</h4>
-              <div class="buy-button"><a href="#">Buy Now</a></div>
-            </div>
-          </div>
     </header> 
     <main>
+      <section>
+        <div class="background"></div>
+        <div class="section-big-box">
+          <div class="background-picture">
+            <img src="images/header-media.png" alt="background-picture">
+          </div>
+          <div class="background-text">
+            <h4>New release</h4>
+            <h2>Nothing Else Matters</h2>
+            <h4>We have released our latest single</h4>
+            <div class="buy-button"><a href="#">Buy Now</a></div>
+          </div>
+        </div>
+      </section>
+
+
       <section class="section1">                                         <!--FIRST SECTION-->
         <div class="first-section-div-box">
           <div class="playlist">
@@ -171,9 +171,9 @@
             </figure>
             <p>The earliest use of “podcasting” was traced to The Guardian columnist and BBC journalist Ben Hammersley, who coined it in early February 2004 while writing an article for The Guardian newspaper.</p>
             <div class="sect3-little-box">
-              <h3>APPLE PODCASTS</h3>
-              <h3>GOOGLE PODCASTS</h3>
-              <h3>SPOTIFY</h3>
+              <a href="https://www.apple.com/ge/apple-podcasts/"><h3>APPLE PODCASTS</h3></a>
+              <a href="https://podcasts.google.com/"><h3>GOOGLE PODCASTS</h3></a>
+              <a href="https://open.spotify.com/"><h3>SPOTIFY</h3></a>
             </div>
           </div>
         </div>
@@ -186,28 +186,40 @@
           </div>
           <div class="sect4-photo-box">
             <div class="sect-4-photos">
-              <img src="images/Lana-Del-Rey-007.avif" alt="lana-del-rey">
-              <h3>Lana Del Rey</h3>
+              <a href="https://www.youtube.com/channel/UCqk3CdGN_j8IR9z4uBbVPSg">
+                <img src="images/Lana-Del-Rey-007.avif" alt="lana-del-rey">
+                <h3>Lana Del Rey</h3>
+              </a>
             </div>
             <div class="sect-4-photos">
-              <img src="images/Imagine-Dragons-dan.jpg" alt="imagine-dragons">
-              <h3>Dan Reynolds</h3>
+              <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA">
+                <img src="images/Imagine-Dragons-dan.jpg" alt="imagine-dragons">
+                <h3>Dan Reynolds</h3>
+              </a>
             </div>
             <div class="sect-4-photos">
-              <img src="images/attachment-coldplay-metlife-13.jpeg" alt="coldplay">
-              <h3>Chris Martin</h3>
+              <a href="https://www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw">
+                <img src="images/attachment-coldplay-metlife-13.jpeg" alt="coldplay">
+                <h3>Chris Martin</h3>
+              </a>
             </div>
             <div class="sect-4-photos">
-              <img src="images/weekndd.jpg" alt="the-weeknd">
-              <h3>Abel Makkonen Tesfaye</h3>
+              <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+                <img src="images/weekndd.jpg" alt="the-weeknd">
+                <h3>Abel Makkonen Tesfaye</h3>
+              </a>            
             </div>
             <div class="sect-4-photos">
-              <img src="images/tom-odell1.jpg" alt="tom-odell">
-              <h3>Tom Odell</h3>
+              <a href="https://www.youtube.com/channel/UCw82hVTqhUUGOQIrGcG8HIw">
+                <img src="images/tom-odell1.jpg" alt="tom-odell">
+                <h3>Tom Odell</h3>
+              </a>
             </div>
             <div class="sect-4-photos">
-              <img src="images/Boris-Brejcha-Press-02.jpg" alt="tom-odell">
-              <h3>Boris Brejcha</h3>
+              <a href="https://www.youtube.com/channel/UCukezONa4veoJBeK9UuVZew">
+                <img src="images/Boris-Brejcha-Press-02.jpg" alt="tom-odell">
+                <h3>Boris Brejcha</h3>
+              </a> 
             </div>
           </div>
         </div>
@@ -215,13 +227,12 @@
       <section class="section5">                                    <!-- section 5 -->
         <div class="sect5-big-box">
           <img src="images/cta.jpg" alt="image"> 
-          
           <div class="sect5-form">
             <div class="sect5-text-box">
               <h2>Amazing Videos & Presentations</h2>
               <h3>We Create, We Develop, We Inspire.</h3>
             </div>
-            <form action="#">
+            <form class="form" action="#">
               <div>
                 <input type="text" id="fname" name="First Name" placeholder="Your Name..." required>
                 <input type="text" id="lastname" name="Last Name" placeholder="Last Name..." required>
@@ -238,7 +249,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="Page-informations">
       <div class="footer-div-box">
         <div class="footer-child">
           <h3>ABOUT</h3>
@@ -295,5 +306,6 @@
         <h3>Copyright © 2023 <a href="#">ePentatonic</a> | ePentatonic by <a href="https://catchthemes.com/">Catch Themes</a></h3>
       </div>
     </footer>
+    <script src="Js/script.js"></script>
 </body>
 </html>
