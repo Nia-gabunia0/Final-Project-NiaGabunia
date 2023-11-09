@@ -167,7 +167,7 @@
     /* SECTION 3*/
 
     .sect3-big-box{
-        width: 691px;
+        /* width: 691px; */
         height: 577px;
     }
     .sect3-photo-box{
@@ -236,13 +236,13 @@
 }
 
 /* MOBILE- L (425) */
-@media (max-width:425px){
+@media (min-width:319px) and (max-width:480px){
     .background{
-        width: 425px;
+        width: 30rem;
         min-height: 885px;
     }
     .header-wraper{
-        width: 425px;
+        max-width: 30rem;
         min-height: 70px;
         flex-direction: row;
     }
@@ -268,10 +268,6 @@
     .search-box{
         display: none;
     }
-    
-    .background{
-        height: 850px;
-    }
     .background-picture{
         max-width: 400px;
         height: 400px;
@@ -289,11 +285,11 @@
     
     /* FIRST SECTION */
     .section1{
-        width: 425px;
+        width: 30rem;
     }
 
     .first-section-div-box{
-        width: 425px;
+        max-width: 30rem;
         height: 1120px;
     }
     .black-image{
@@ -302,22 +298,23 @@
 
     /* SECOND SECTION */
     .section2{
-        width: 425px;
+        max-width: 30rem;
         height: 870px;
     }
     .section2-big-box{
-        width: 425px; 
+        width: 30rem;
+        height: 870px;
         display: flex;
         flex-direction: column-reverse;
     }
     .sect2-text-box{
-        width: 425px;
+        width: 30rem;
         height: 460px;
         margin: 0;
         
     }
     .sect2-little-text-box{
-        width: 400px;
+        width: 30rem;
         display: flex;
         flex-wrap: wrap;
         row-gap: 25px;
@@ -333,23 +330,21 @@
     
     /* SECTION 3*/
     .section3{
-        width: 425px;
+        width: 30rem;
     }
     .sect3-big-box{
-        width: 425px;
+
         height: 1250px;
     }
     .sect3-photo-box{
-        max-width: 425px;
-        width: 100%;
+        max-width: 30rem;
         height: 400px;
         margin-left: 10px;
         margin-top: 0;
 
     }
     .sect3-text-box {
-        max-width: 425px;
-        width: 100%;
+        max-width: 30rem;
         height: 660px;
         padding: 20px;
     }
@@ -370,16 +365,16 @@
     }
     /* SECTION 4 */
     .section4{
-        width: 425px;
+        width: 30rem;
     }
     .sect4-big-box{
-        width: 425px;
+        width: 30rem;
         height: 1900px;
     }
 
     /* section 5 */
     .section5{
-        width: 425px;
+        width: 30rem;
     }
     .sect5-big-box{
         height: 760px;
@@ -397,14 +392,14 @@
     }
      /* FOOTER */
      footer{
-        width: 425px;
+        width: 30rem;
      }
      .footer-div-box{
         height: 880px;
         flex-wrap: wrap;
      }
      .footer-child{
-        max-width: 425px;
+        max-width: 30rem;
         width: 100%;
         height: auto;
      }
