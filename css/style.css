@@ -390,7 +390,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 9px;
+    gap: 5px;
     max-width: 40.625rem;
     min-height: 50px;
     align-items: center;
