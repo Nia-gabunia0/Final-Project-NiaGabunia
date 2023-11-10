@@ -380,11 +380,11 @@ hr{
     min-height: 157px;
 }
 .figure{
-    max-width: 44.688rem;
+    max-width: 43.688rem;
     height: 65px;
 }
 .figure audio{
-    width: 100%;
+    width: 99%;
 }
 .sect3-little-box{
     display: flex;

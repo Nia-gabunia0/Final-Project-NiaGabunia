@@ -66,11 +66,11 @@
         height: 60px;
     }
     .figure{
-        max-width: 381px;
+        max-width: 380px;
         height: 54px;
     }
     .sect3-little-box{
-        max-width: 25rem;
+        max-width: 22rem;
         height: 120px;
         flex-wrap: nowrap;
     }
