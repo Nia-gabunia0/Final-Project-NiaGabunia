@@ -1,8 +1,8 @@
 /* Header */
-header{
+/* header{
     width: 100%;
     position: relative;
-}
+} */
 .header-wraper{   
     background-color: rgba(41, 3, 3, 0.767);
     display: flex;
@@ -15,13 +15,13 @@ header{
 }
 .h1{
     font-weight: 900;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 .h1 a{
     color: rgb(142, 138, 127);
 }
 .ul-item{
-    width: 400px;
+    width: 25rem;
     display: flex;
     justify-content: space-between; 
 }
@@ -35,8 +35,11 @@ header{
     transform: scale(1.5);
     transition: 1s;
 }
+.search-box{
+    position: relative;
+}
 .search-box input{
-    width: 300px;
+    max-width: 18.75rem;
     height: 30px;
     border-radius: 20px;
     border: none;
@@ -53,8 +56,13 @@ input:focus{
     outline: none;
 }
 .search-box button{
+    width: 31px;
+    height: 30px;
     border: none;
-    border-radius: 20%;
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    background-color: rgba(211, 211, 211, 0.931);
     
 }
 .burger-bar{ background-color: rgba(194, 185, 185, 0.582);
@@ -74,41 +82,42 @@ input:focus{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 850px;
+    height: 815px;
     position: relative;
 }
 .section-big-box{
     position: absolute;
-    max-width: 1440px;
-    width: 100%;
+    width: 80%;
     min-height: 700px;
     margin: 0 auto;
     top: 100px;
+    left: 10%;
     /* dasamatebelia */
 }
 .background-picture{
     position: absolute;
-    width: 700px;
-    height: 700px;
-    left: 5%;
+    max-width: 37.5rem;
+    top: 1%;
+}
+.background-picture img{
+    width: 100%;
 }
 .background-text{
     color: white;
     position: absolute;
     max-width: 21.125rem;
-    width: 100%;
-    height: 300px;
-    top: 44%;
-    left: 62%;
+    min-height: 300px;
+    top: 47%;
+    left: 66%;
 }
 .background-text h4{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 .background-text h2{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -140,14 +149,14 @@ a:hover{
     background-color: black;
 }
 .first-section-div-box{
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 0 auto;
     min-height: 370px;
     display: flex;
     align-items: center;
 }
 .playlist{
-    width: 360px;
+    width: 22.5rem;
     height: 270px;
     position: relative;
     transition: 1s;
@@ -161,7 +170,7 @@ a:hover{
     width: 100%;
 }
 .playlist-text{ 
-    width: 226px;
+    width: 14.125rem;
     height: 158px;
     position: absolute;
     top: 41.5%;
@@ -170,7 +179,7 @@ a:hover{
     color: white;
 }
 .text-top{ 
-    width: 230px;
+    width: 14.375rem;
     height: 35px;
     display: flex;
     padding-top: 10px;
@@ -179,7 +188,7 @@ a:hover{
 .text-top p{
     margin-left: 10px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
 .clock-icon{
@@ -194,10 +203,10 @@ hr{
 .text-bottom{
     padding-left: 10px;
     display: flex;
-    width: 230px;
+    width: 14.375rem;
     height: 86px;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-family: 'Poppins', sans-serif;
 }
 .play-button{
@@ -214,7 +223,7 @@ hr{
     transition: 1s;
 }
 .black-image{     
-    width:360px;
+    width:22.5rem;
     height: 270px;
     background-color: rgb(10, 10, 10);
     transition: 1s;
@@ -227,11 +236,11 @@ hr{
     
 }
 .black-box-block{  background-color: rgba(255, 255, 255, 0.192);
-    width: 100px;
+    width: 6.25rem;
     height: 100px;
     margin: 100px auto;
     padding: 10px 15px;
-    font-size: 38px;
+    font-size: 2.375rem;
     border-radius: 50%;
     transition: 1s;
 }
@@ -248,8 +257,7 @@ hr{
     display: flex;
 }
 .section2-big-box{
-    max-width: 1440px;  
-    width: 100%;   /* მაქს ვიდსზე ზომაში იკუმშება ბოქსი!!  */
+    max-width: 90rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -269,27 +277,27 @@ hr{
 }
 .sect2-text-box h4{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 20px;
     padding-top: 20px;
 }
 .sect2-text-box h2{
     font-weight: 700;
-    font-size: 38px;
+    font-size: 2.375rem;
     margin-bottom: 55px;
     
 }
 .sect2-text-box p{
     font-weight: 400;
-    font-size: 43px;
+    font-size: 2.688rem;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
 }
 .sect2-text-box h3{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Poppins', sans-serif;
-    width: 172px;
+    width: 10.75rem;
 }
 .sect-2-button{
     background-color: rgb(110, 82, 5);
@@ -300,7 +308,7 @@ hr{
     color: white;
     border-radius: 50px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     transition: 1s;
     margin-top: 50px;
 }
@@ -311,13 +319,13 @@ hr{
 }
 .sect-2-button a{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 .sect2-image-box{
     margin-top: 10px;
-    width: 648px;
+    max-width: 40.5rem;
     height: 648px;
 }
 .sect2-image-box img{
@@ -329,7 +337,8 @@ hr{
     background-color: #101010;
 }
 .sect3-big-box{    
-    max-width: 1440px;
+    max-width: 90rem;
+    min-height: 50vh;
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -338,63 +347,64 @@ hr{
     justify-content: space-evenly;
 }
 .sect3-photo-box{
-    width: 518px;
+    max-width: 32.375rem;
     height: 518px;
 }
 .sect3-photo-box img{
     width: 100%;
 }
 .sect3-text-box{
-    width: 749.53px;
-    height: 518px;
-    padding: 60px 20px;
+    max-width: 46.846rem;
+    min-height: 518px;
+    padding: 10px 15px;
     color: #999999;
 }
 .sect3-text-box h4{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 20px;
 }
 .sect3-text-box h2{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 .sect3-text-box p{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
-    margin-top: 25px;
-    width: 679px;
-    height: 157px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    max-width: 42.438rem;
+    min-height: 157px;
 }
 .figure{
-    width: 715px;
+    max-width: 44.688rem;
     height: 65px;
 }
 .figure audio{
-    min-width: 300px;
     width: 100%;
 }
 .sect3-little-box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 650px;
-    height: 50px;
+    justify-content: space-evenly;
+    gap: 9px;
+    max-width: 40.625rem;
+    min-height: 50px;
     align-items: center;
 }
 .sect3-little-box h3{
     background-color: #99999913;
-    width: 200px;
+    width: 12.5rem;
     height: 50px;
     text-align: center;
     padding-top: 15px;
     margin: 0 auto;
     color: #999999;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     border: 1px solid gray;
     font-family: 'Poppins', sans-serif;
     transition: 1s;
@@ -414,7 +424,7 @@ p::selection {
     background-color: rgb(35, 32, 32);
 }
 .sect4-big-box{
-    max-width: 1440px;
+    max-width: 90rem;
     min-height: 550px;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -425,25 +435,24 @@ p::selection {
 }
 .sect4-text-box h4{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 20px;
     padding-top: 50px;
     font-family: 'Poppins', sans-serif;
 }
 .sect4-text-box h2{
     font-weight: 700;
-    font-size: 38px;
+    font-size: 2.375rem;
     margin-bottom: 55px;
     font-family: 'Poppins', sans-serif;
 }
 .sect4-photo-box{
     display: flex;
-    column-gap: 20px;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, 14.938rem); */
+    justify-content: space-between;
+    /* column-gap: 1.25rem; */
 }
 .sect-4-photos{
-    width: 210px;
+    width: 13.125rem;
     transition: 1s;
 }
 .sect-4-photos:hover{
@@ -460,7 +469,7 @@ p::selection {
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     margin-top: 20px;
 }
@@ -469,15 +478,16 @@ p::selection {
 .section5{
     background-color: rgb(35, 32, 32);
 }
-.sect5-big-box{
-    max-width: 1440px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-}
-.sect5-big-box img{
+.background2{    
+    background-image: url(../images/cta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 700px;
+    /* max-width: 90rem;
+    margin: 0 auto; */
+    position: relative;
+
 }
 .sect5-text-box{
     margin-bottom: 30px;
@@ -486,38 +496,40 @@ p::selection {
 }
 .sect5-text-box h2{
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.188rem;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
 .sect5-text-box h3{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Poppins', sans-serif;
 }
 .form{
     padding-left: 35px;
 }
 .sect5-form{
-    width: 700px;
+    width: 43.75rem;
     height: 500px;
     color: white;
-    position: absolute;
-    top: 15%;
-    left: 28%;
+    margin: 0 auto;
+    padding-top: 100px;
+    /* position: absolute; */
+    /* top: 15%;
+    left: auto; */
     display: flex;
     flex-direction: column;
 
 }
 .sect5-form input{
-    width: 300px;
+    width: 18.75rem;
     height: 50px;
     margin: 6px;   
     background-color: rgb(204, 187, 165);
 }
 .sect5-form input::placeholder{
     color:  rgb(75, 39, 3);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
@@ -530,19 +542,19 @@ p::selection {
 }
 .sect5-form textarea::placeholder{
     color:  rgb(75, 39, 3);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 .sect5-form textarea{
-    width: 616px;
+    width: 38.5rem;
     resize: none;
     outline: none;
     margin: 6px;
     background-color: rgb(204, 187, 165);
 }
 .sect5-buttons{
-    margin-left: 200px;
+    margin-left: 12.5rem;
 }
 .sect5-buttons input:hover{
     transform: scale(1.09);
@@ -550,9 +562,9 @@ p::selection {
     background-color: rgb(139, 70, 13);
 }
 .sect5-buttons input{
-    width: 100px;
+    width: 6.25rem;
     height: 40px;
-    font-size: 14px;   
+    font-size: 0.875rem;   
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 
@@ -560,12 +572,13 @@ p::selection {
 /* FOOTER */ 
 footer{   
     background-color: #010101;
-    height: 450px;
+    min-height: 450px;
 }
 .footer-div-box{ 
-    max-width: 1440px;
+    max-width: 90rem;
+    min-height: 400px;
     margin: 0 auto;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     background-color: #121212;
     height: 350px;
     display: flex;
@@ -573,27 +586,31 @@ footer{
     align-items: center;
 }
 .footer-child{
-    max-width: 405.34px;
+    max-width: 25.334rem;
     height: 278.31px;
     padding: 12px;
 }
 .footer-child h3{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 25px;
 }
 .footer-child > p{
-    height: 112px;
+    max-width: 22.625rem;
+    min-height: 112px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #999999;
     font-family: 'Poppins', sans-serif; 
 }
+.footer-icons{
+    margin-top: 10px;
+}
 .footer-icons > ul{
     display: flex;
-    column-gap: 20px;
+    column-gap: 1.25rem;
     color: white;
 }
 .footer-icons a {
@@ -601,7 +618,7 @@ footer{
 }
 .footer-contact{
     display: flex;
-    column-gap: 20px;
+    column-gap: 1.25rem;
     margin-top: 20px;
 }
 .footer-contact i{
@@ -611,7 +628,7 @@ footer{
     color: #FEFEFE;
 }
 .footer-photo-box{
-    max-width: 300px;
+    max-width: 18.75rem;
     height: 80px;
     margin-top: 30px;
     display: flex;
@@ -619,26 +636,26 @@ footer{
 .footer-photo-text{
     display: flex;
     flex-direction: column;
-    padding-top: 15px;
-    margin-left: 20px;
+    /* padding-top: 15px; */
+    margin-left: 1.25rem;
 }
 .footer-photo-text h5{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #FEFEFE;
     font-family: 'Poppins', sans-serif;
 }
 .copyright{
-    margin-top: 40px;
     text-align: center;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.063rem;
     color: #999999;
     font-family: 'Poppins', sans-serif;
+    margin: 15px auto;
 }
 .copyright a{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgb(119, 114, 114);
     transition: 1s;
 }
