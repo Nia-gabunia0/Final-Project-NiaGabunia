@@ -8,7 +8,7 @@
     display: flex;
     width: 100%;
     height: 70px;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     z-index: 6;
     position: fixed;
@@ -59,11 +59,16 @@ input:focus{
     width: 31px;
     height: 30px;
     border: none;
-    border-radius: 50%;
+    border-top-right-radius: 33%;
+    border-bottom-right-radius: 33%;
     position: absolute;
-    left: 80%;
+    left: 81%;
     background-color: rgba(211, 211, 211, 0.931);
-    
+    transition: 1s;
+}
+.search-box button:hover{
+    box-shadow: 1px 0px 14px 1px rgb(255 181 95);
+    transition: 1s;
 }
 .burger-bar{ background-color: rgba(194, 185, 185, 0.582);
     width: 50px;
@@ -100,7 +105,7 @@ input:focus{
     top: 1%;
 }
 .background-picture img{
-    width: 100%;
+    width: 111%;
 }
 .background-text{
     color: white;
@@ -214,7 +219,7 @@ hr{
     border-radius: 50%;
     position: absolute;
     padding: 11px 19px;
-    margin-top: 13px;
+    margin-top: 11px;
     margin-left: 170px;
     transition: 1s;
 }
@@ -238,12 +243,31 @@ hr{
 .black-box-block{  background-color: rgba(255, 255, 255, 0.192);
     width: 6.25rem;
     height: 100px;
-    margin: 100px auto;
+    margin: 0 auto;
+    margin-top: 23%;
     padding: 10px 15px;
     font-size: 2.375rem;
     border-radius: 50%;
     transition: 1s;
 }
+.arrow{
+    animation-name: arrow;
+    animation-duration: 1.5s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state:running;
+    animation-delay: 0s;
+}
+@keyframes arrow{
+      from {
+        transform: translateX(-1.3vw);
+      }
+      to {
+        transform: translateX(1.4vw);
+      }
+}
+
 .black-box-block:hover{
     background-color:  rgb(110, 82, 5);
     transform: 1s;
@@ -490,7 +514,7 @@ p::selection {
 
 }
 .sect5-text-box{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
     color: white;
     box-shadow: 0px -1px 12px 0px rgb(181 140 92);
@@ -548,14 +572,14 @@ p::selection {
     font-family: 'Poppins', sans-serif;
 }
 .sect5-form textarea{
-    width: 38.5rem;
+    width: 92.5%;
     resize: none;
     outline: none;
     margin: 6px;
     background-color: rgb(204, 187, 165);
 }
 .sect5-buttons{
-    margin-left: 12.5rem;
+    margin-left: 30%;
 }
 .sect5-buttons input:hover{
     transform: scale(1.09);
@@ -602,7 +626,7 @@ footer{
     max-width: 22.625rem;
     min-height: 112px;
     font-weight: 500;
-    font-size: 1.125rem;
+    font-size: 1.063rem;
     color: #999999;
     font-family: 'Poppins', sans-serif; 
 }
@@ -668,11 +692,16 @@ footer{
 }
 #language{
     margin-top: 13px;
-    box-shadow: 0px 0px 7px 1px rgb(249 137 8);
+    box-shadow: 0px 0px 7px 1px rgb(164, 120, 76);
     color: black;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
     padding: 5px;
     background-color: gray;
+    transition: 1s;
+}
+#language:hover{
+    box-shadow: 0px 0px 7px 1px rgb(249 137 8);
+    transition: 1s;
 }

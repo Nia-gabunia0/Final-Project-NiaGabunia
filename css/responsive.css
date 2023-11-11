@@ -53,6 +53,9 @@
 /* TABLET - 768 */
 @media (max-width:768px){
     /* SECTION 3*/
+    .header-wraper{
+        justify-content: space-between;
+    }
     .sect3-text-box {
         max-width: 414px;
         height: 500px;
@@ -74,8 +77,52 @@
         height: 120px;
         flex-wrap: nowrap;
     }
+    .type-box{
+        width: 100%;
+    }
+    .sect5-form{
+        width: 100%;
+        min-height: 500px;
+    }
+    .type-box input {
+        width: 92.5%;
+    }
 }
+@media (max-width:607px){
+    .background{
+        min-height: 845px;
+    }
+    .background-text {
+        top: 55%;
+        left: 20%;
+    }
+    .background2{
+        min-height: 724px;
+    }
+    .sect5-buttons {
+        margin-left: 26%;
+    }
+    .footer-div-box{
+        flex-direction: column;
+        min-height: 780px;
+        padding: 15px;
+    }
+    .copyright{
+        min-height: 60px;
+    }
+    .header-wraper{
+        justify-content: space-between;
+    }
+    .burger-bar{
+        left: 68%;
+    }
+}
+
+
 @media (max-width: 480px){
+    .background{
+        min-height: 770px;
+    }
     .burger-bar{
         left: 60%;
     }
@@ -83,30 +130,13 @@
         max-width: 30rem;
     }
     .background-picture{
-        width: 90%;
+        width: 100%;
+    }
+    .background-text h2{
+        font-size: 2.75rem;
+    }
+    .sect5-buttons {
+        margin-left: 18%;
     }
 
-    .background-text {
-        left: 16%;
-    }
-    .sect5-form{
-        max-width: 22rem;
-    }
-    .sect5-form textarea{
-        width: 94.5%;
-    }
-    .sect5-text-box{
-        margin-left: -10%;
-    }
-    .sect5-buttons{
-        margin-left: 10%;
-    }
-    footer{
-        min-height: 780px;
-    }
-    .footer-div-box{
-        flex-direction: column;
-        min-height: 700px;
-        padding: 15px;
-    }
 }
