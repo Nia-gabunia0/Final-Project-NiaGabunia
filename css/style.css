@@ -78,9 +78,9 @@ input:focus{
     display: none;
     position: absolute;
 }
-.li-burger{
+/* .li-burger{
     padding: 10px;
-}
+} */
 /* section 0 */
 .background{
     background-image: url(../images/header-media-bg.jpg);
