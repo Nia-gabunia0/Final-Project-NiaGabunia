@@ -24,6 +24,7 @@
     }
 }
 @media (max-width:875px){
+    /* header */
     .navigation.newNavigation{
         display: block;
         margin-top: 100px;
@@ -39,8 +40,8 @@
     }
     .burger-bar{
         display: block;
-        margin-left: 90px;
-        left: 75%;
+        margin-top: 10px;
+        margin-left: 85%;
     }
     .h1{
         margin-left: 15px;
@@ -48,21 +49,26 @@
     .search-box{
         display: none;
     }
-
 }
 /* TABLET - 768 */
 @media (max-width:768px){
-    /* SECTION 3*/
+    /* HEADER */
     .header-wraper{
         justify-content: space-between;
     }
+    /* SECTION 3*/
     .sect3-text-box {
         max-width: 414px;
-        height: 500px;
+        height: 560px;
         padding: 18px;
-    }
+    } 
     .sect3-text-box p{
         max-width: 380px;
+    }
+    .sect3-little-box{
+        max-width: 21rem;
+        height: 120px;
+        flex-wrap: wrap;
     }
     .sect3-little-box h3{
         max-width: 7.25rem;
@@ -72,23 +78,24 @@
         max-width: 380px;
         height: 54px;
     }
-    .sect3-little-box{
-        max-width: 21rem;
-        height: 120px;
-        flex-wrap: nowrap;
-    }
-    .type-box{
-        width: 100%;
-    }
+    /* SECTION-5 */
     .sect5-form{
         width: 100%;
         min-height: 500px;
+    }
+    .type-box{
+        width: 100%;
     }
     .type-box input {
         width: 92.5%;
     }
 }
 @media (max-width:607px){
+    /* HEADER */
+    .header-wraper{
+        justify-content: space-between;
+    }
+    /* HEADER-ZERO */
     .background{
         min-height: 845px;
     }
@@ -96,12 +103,14 @@
         top: 55%;
         left: 20%;
     }
+    /* SECTION-5 */
     .background2{
         min-height: 724px;
     }
     .sect5-buttons {
         margin-left: 26%;
     }
+    /* FOOTER */
     .footer-div-box{
         flex-direction: column;
         min-height: 780px;
@@ -110,22 +119,13 @@
     .copyright{
         min-height: 60px;
     }
-    .header-wraper{
-        justify-content: space-between;
-    }
-    .burger-bar{
-        left: 68%;
-    }
 }
-
-
 @media (max-width: 480px){
+    /* HEADER */
     .background{
         min-height: 770px;
     }
-    .burger-bar{
-        left: 60%;
-    }
+    /* SECTION-ZERO */
     .section-big-box{
         max-width: 30rem;
     }
@@ -135,8 +135,14 @@
     .background-text h2{
         font-size: 2.75rem;
     }
+    /* SECTION-5 */
     .sect5-buttons {
         margin-left: 18%;
     }
-
+}
+@media (min-width: 320px){
+    /* SECTION-3 */
+    .sect3-text-box {
+        height: 620px;
+    }
 }
