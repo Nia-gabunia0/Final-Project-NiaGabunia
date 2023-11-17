@@ -887,7 +887,7 @@ footer{
     font-size: 1.063rem;
     color: #999999;
     font-family: 'Poppins', sans-serif;
-    margin: 15px auto;
+    padding-top: 10px;
 }
 .copyright a{
     font-weight: 700;
