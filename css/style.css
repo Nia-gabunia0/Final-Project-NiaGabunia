@@ -595,7 +595,6 @@ p::selection {
     padding-bottom: 50px;
 }
 .sect4-text-box{
-    margin-left: 50px;
     color: white;
 }
 .sect4-text-box h4{
@@ -679,7 +678,7 @@ p::selection {
     font-family: 'Poppins', sans-serif;
 }
 .form{
-    padding-left: 35px;
+    padding-left: 32px;
 }
 .sect5-form{
     width: 43.75rem;
