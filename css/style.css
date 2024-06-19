@@ -63,6 +63,10 @@
     border-bottom: 1px solid rgb(110, 82, 5);
     background-color: #532b2b55;
 }
+.search-box input.text-padding{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.74);
+}
 .search-box input::-webkit-input-placeholder{
     color: white;
     font-size: 14px;   
@@ -88,7 +92,7 @@
     font-family: 'Poppins', sans-serif; 
 }
 .search-box input::placeholder{
-    color: white;
+    color: rgb(142, 138, 127);
     font-size: 14px;   
     font-weight: 400;
     font-family: 'Poppins', sans-serif; 
@@ -104,7 +108,7 @@ input:focus{
     border-bottom-right-radius: 33%;
     position: absolute;
     left: 81%;
-    background-color: rgba(211, 211, 211, 0.931);
+    background-color: rgb(142, 138, 127);
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
@@ -695,6 +699,7 @@ p::selection {
     width: 18.75rem;
     height: 50px;
     margin: 6px;   
+    padding: 10px;
     background-color: rgb(204, 187, 165);
 }
 .sect5-form input::-webkit-input-placeholder{
@@ -738,6 +743,7 @@ p::selection {
     font-size: 0.938rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    padding: 10px;
 }
 .sect5-form textarea::-moz-placeholder{
     color:  rgb(75, 39, 3);
@@ -768,6 +774,7 @@ p::selection {
     resize: none;
     outline: none;
     margin: 6px;
+    padding: 2px;
     background-color: rgb(204, 187, 165);
 }
 .sect5-buttons{
@@ -778,11 +785,12 @@ p::selection {
         -ms-transform: scale(1.09);
             transform: scale(1.09);
     color: white;
-    background-color: rgb(139, 70, 13);
+    background-color: rgba(136, 73, 21, 0.705);
 }
 .sect5-buttons input{
     width: 6.25rem;
     height: 40px;
+    padding: 2px;
     font-size: 0.875rem;   
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
