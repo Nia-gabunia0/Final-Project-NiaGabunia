@@ -42,8 +42,12 @@
     /* header */
     .navigation.newNavigation{
         display: block;
-        margin-top: 100px;
+        position: absolute;
         background-color: rgb(117, 84, 45);
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 11rem;
     }
     .ul-item{
         -webkit-box-orient: vertical;
@@ -124,7 +128,8 @@
     }
     .background-text {
         top: 55%;
-        left: 20%;
+        /* left: 20%; */
+        left: 0;
     }
     /* SECTION-5 */
     .background2{

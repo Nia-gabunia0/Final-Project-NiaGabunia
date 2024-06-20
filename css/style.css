@@ -790,6 +790,7 @@ p::selection {
     width: 6.25rem;
     height: 40px;
     padding: 2px;
+    border: none;
     font-size: 0.875rem;   
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
